@@ -18,6 +18,9 @@ public class FileHelper {
 	//break and store each line in array - declare that array as public static
 	//return that array
 	
+	/**
+	 * Process input file
+	 */
 	public static void processInputFile() {
 		BufferedReader reader;
 		
@@ -37,19 +40,5 @@ public class FileHelper {
 		
 		
 	}
-	
-	
-//	private File getFileFromResources(String fileName) {
-//
-//        ClassLoader classLoader = getClass().getClassLoader();
-//
-//        URL resource = classLoader.getResource(fileName);
-//        if (resource == null) {
-//            throw new IllegalArgumentException("file is not found!");
-//        } else {
-//            return new File(resource.getFile());
-//        }
-//
-//    }
 	
 }
